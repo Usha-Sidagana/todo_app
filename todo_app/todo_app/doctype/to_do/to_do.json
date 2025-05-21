@@ -11,6 +11,7 @@
   "title",
   "status",
   "priority",
+  "completion_date",
   "column_break_mmor",
   "assigned_to",
   "due_date",
@@ -79,13 +80,18 @@
    "fieldtype": "Select",
    "label": "Priority",
    "options": "Low\nMedium\nHigh"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-21 12:22:26.309863",
+ "modified": "2025-05-21 13:40:49.385612",
  "modified_by": "Administrator",
  "module": "todo_app",
  "name": "To Do",
