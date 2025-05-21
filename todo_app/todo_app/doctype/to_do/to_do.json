@@ -10,6 +10,7 @@
   "amended_from",
   "title",
   "status",
+  "priority",
   "column_break_mmor",
   "assigned_to",
   "due_date",
@@ -72,13 +73,19 @@
   {
    "fieldname": "section_break_qiub",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-20 15:32:56.884262",
+ "modified": "2025-05-21 12:22:26.309863",
  "modified_by": "Administrator",
  "module": "todo_app",
  "name": "To Do",
