@@ -5,6 +5,15 @@ app_description = "todo_app"
 app_email = "ushasidagana01@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "dt": "Server Script",
+        "filters": [
+            ["name", "in", ["Automate Completion Date in To Do List"]]
+        ]
+    }
+]
+
 # Apps
 # ------------------
 
